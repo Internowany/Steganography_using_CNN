@@ -1,0 +1,17 @@
+{
+    "model"           : "vgg19",
+    "weights"         : "None",
+    "include_top"     : "False",
+  
+    "train_path"      : "1_deep/dataset/train",
+    "test_path"       : "1_deep/dataset/test",
+    "features_path"   : "1_deep/output/vgg19/features.h5",
+    "labels_path"     : "1_deep/output/vgg19/labels.h5",
+    "results"         : "1_deep/output/vgg19/results.txt",
+    "classifier_path" : "1_deep/output/vgg19/classifier.pickle",
+    "model_path"      : "1_deep/output/vgg19/model",
+  
+    "test_size"       : 0.20,
+    "seed"            : 537423,
+    "num_classes"     : 4
+}

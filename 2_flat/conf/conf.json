@@ -1,0 +1,14 @@
+{
+    "scoring"         : "accuracy",
+
+    "train_path"      : "2_flat/dataset/train",
+    "test_path"       : "2_flat/dataset/test",
+    "features_path"   : "2_flat/output/data.h5",
+    "labels_path"     : "2_flat/output/labels.h5",
+    "results"         : "2_flat/output/results.txt",
+
+    "test_size"       : 0.20,
+    "seed"            : 537423,
+    "num_trees"       : 100,
+    "bins"            : 8
+}
